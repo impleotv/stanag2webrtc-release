@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log*
+*.exe
+*.zip
+*.tar.gz
+*.tar
+.ftp-deploy-sync-state.json
+
