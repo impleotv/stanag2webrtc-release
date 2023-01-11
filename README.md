@@ -10,23 +10,20 @@
 **Stanag2WebRTC** allows easy integration of live udp **STANAG 4609** streaming into web-based applications.  
 Video and metadata are transcoded on the fly and sent to web clients using **WebRTC** video and data channels. 
 
-<div align="center">
-	<font color="blue">Stanag2WebRTC.</font>
-</div>
 
 ![Stanag2WebRTC](images/uavscreen.jpg)
 
-More info on the [Stanag2WebRTC](https://impleotv.com/content/stanag2webrtc/help/index.html)
+More info on [Stanag2WebRTC](https://impleotv.com/content/stanag2webrtc/help/index.html)
 
 
-## Download links
+## Installing Stanag2WebRTC
 
 
 ### Linux:
 
 Use **Stanag2WebRTC** docker container. The image will be automatically downloaded.  
 ```bash
-docker run --network host impleo/stanag2webrtc:v1.0.7 -url udp://227.1.1.1:30120
+docker run --network host impleo/stanag2webrtc:1.0.7 -url udp://227.1.1.1:30120
 ```
 
 
@@ -36,10 +33,10 @@ docker run --network host impleo/stanag2webrtc:v1.0.7 -url udp://227.1.1.1:30120
 |:---------|:-------------------:|:------------------------------------------------------------------------|
 | **Stanag2WebRTC** |  v1.0.7 | [SetupStanag2WebRtc.zip](https://github.com/impleotv/stanag2webrtc-release/releases/latest/download/SetupStanag2WebRtc.zip) | 
 
-> Note. Windows version requires GStreamer demux patch. Without the patch, streams with SYNC KLV will not work.
+> Note. Windows version requires **GStreamer** demux patch. Without the patch, streams with SYNC KLV will not work.
 
 
-*Released on Wed, 11 Jan, 18:38 GMT+2*
+*Released on Wed, 11 Jan, 18:51 GMT+2*
 
 
 ## License
