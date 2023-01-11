@@ -5,7 +5,7 @@
   </a>
 </div>
 
-# Klv Overlay Control SDK
+# Stanag2WebRTC
 
 **KlvOverlayControl** is a reusable component for implementing advanced video overlay functionality in FMV applications. This control is based on the metadata standards MISB 0601.X and MISB 0903.X, allowing you to easily incorporate data from these sources into your overlays. With the KlvOverlayControl, you can easily add rich, informative overlays to your video content, enhancing the viewing experience for your users. Whether you're building a standalone application or integrating the control into an existing system, the KlvOverlayControl is an invaluable tool for any WPF developer working with video content.
 <div align="center">
@@ -21,10 +21,10 @@ More info on the [Klv Overlay Control Sdk](https://impleotv.com/content/klvoverl
 
 |          | Version             | Download link                                                           | 
 |:---------|:-------------------:|:------------------------------------------------------------------------|
-| **KlvOverlay SDK** |  v3.0.0 | [Klv Overlay Control SDK.zip](https://github.com/impleotv/klvoverlay-release/releases/latest/download/SetupKlvOverlayCtrl.zip) | 
+| **KlvOverlay SDK** |  master | [Klv Overlay Control SDK.zip](https://github.com/impleotv/klvoverlay-release/releases/latest/download/SetupKlvOverlayCtrl.zip) | 
 
 
-*Released on Sun, 8 Jan, 11:30 GMT+2*
+*Released on Wed, 11 Jan, 18:13 GMT+2*
 
 
 ## License
@@ -38,5 +38,5 @@ You'll get back a **license** file and a **key**.
 
 ## System Requirements
 
-OS: Windows 10 64 bit.
+OS: Linux 64bit / Windows 10 64 bit.
 
