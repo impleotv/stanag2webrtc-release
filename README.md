@@ -7,32 +7,47 @@
 
 # Stanag2WebRTC
 
-**KlvOverlayControl** is a reusable component for implementing advanced video overlay functionality in FMV applications. This control is based on the metadata standards MISB 0601.X and MISB 0903.X, allowing you to easily incorporate data from these sources into your overlays. With the KlvOverlayControl, you can easily add rich, informative overlays to your video content, enhancing the viewing experience for your users. Whether you're building a standalone application or integrating the control into an existing system, the KlvOverlayControl is an invaluable tool for any WPF developer working with video content.
+***Stanag2WebRTC** allows easy integration of live udp **STANAG 4609** streaming into web-based applications.  
+Video and metadata are transcoded on the fly and sent to web clients using **WebRTC** video and data channels. 
+
 <div align="center">
-	<font color="blue">STANAG 4609 OverlayControl.</font>
+	<font color="blue">Stanag2WebRTC.</font>
 </div>
 
-![Klv Overlay Control](images/OverlayPic.jpg)
+![Stanag2WebRTC](images/uavscreen.jpg)
 
-More info on the [Klv Overlay Control Sdk](https://impleotv.com/content/klvoverlaycontrol/help/index.html)
+More info on the [Stanag2WebRTC](https://impleotv.com/content/stanag2webrtc/help/index.html)
 
 
 ## Download links
 
+
+### Linux:
+
+Use **Stanag2WebRTC** docker container  
+```bash
+docker run --network host impleo/stanag2webrtc:master -url udp://227.1.1.1:30120
+```
+
+
+### Windows
+
 |          | Version             | Download link                                                           | 
 |:---------|:-------------------:|:------------------------------------------------------------------------|
-| **KlvOverlay SDK** |  master | [Klv Overlay Control SDK.zip](https://github.com/impleotv/klvoverlay-release/releases/latest/download/SetupKlvOverlayCtrl.zip) | 
+| **Stanag2WebRTC** |  master | [SetupStanag2WebRtc.zip](https://github.com/impleotv/stanag2webrtc-release/releases/latest/download/SetupStanag2WebRtc.zip) | 
+
+> Note. Windows version requires GStreamer demux patch. Without the patch, streams with SYNC KLV will not work.
 
 
-*Released on Wed, 11 Jan, 18:13 GMT+2*
+*Released on Wed, 11 Jan, 18:29 GMT+2*
 
 
 ## License
 
 *No license is needed for application evaluation - it will work in demo mode (with some restrictions).*
 
-**KlvOverlayControl** is a node-locked software, so you have to get a license (after purchasing the SW) in order to lift demo restrictions. Please install it and fill out an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
-You can obtain the **nodeinfo** string by running the demo app (Menu->Settings).
+**SetupStanag2WebRtc** is a node-locked software, so you have to get a license (after purchasing the SW) in order to lift demo restrictions. Please install it and fill out an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
+You can obtain the **nodeinfo** string at the top of the client demo app.
 
 You'll get back a **license** file and a **key**.
 
