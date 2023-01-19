@@ -36,7 +36,7 @@ docker run --network host impleo/stanag2webrtc:1.0.9 -url udp://227.1.1.1:30120
 > Note. Windows version requires **GStreamer** demux patch. Without the patch, streams with SYNC KLV will not work.
 
 
-*Released on Thu, 19 Jan, 13:25 GMT+2*
+*Released on Thu, 19 Jan, 14:07 GMT+2*
 
 
 ## License
