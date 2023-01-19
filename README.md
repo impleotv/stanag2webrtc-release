@@ -23,7 +23,7 @@ More info on [Stanag2WebRTC](https://impleotv.com/content/stanag2webrtc/help/ind
 
 Use **Stanag2WebRTC** docker container. The image will be automatically downloaded.  
 ```bash
-docker run --network host impleo/stanag2webrtc:1.0.8 -url udp://227.1.1.1:30120
+docker run --network host impleo/stanag2webrtc:1.0.9 -url udp://227.1.1.1:30120
 ```
 
 
@@ -31,12 +31,12 @@ docker run --network host impleo/stanag2webrtc:1.0.8 -url udp://227.1.1.1:30120
 
 |          | Version             | Download link                                                           | 
 |:---------|:-------------------:|:------------------------------------------------------------------------|
-| **Stanag2WebRTC** |  v1.0.8 | [SetupStanag2WebRtc.zip](https://github.com/impleotv/stanag2webrtc-release/releases/latest/download/SetupStanag2WebRtc.zip) | 
+| **Stanag2WebRTC** |  v1.0.9 | [SetupStanag2WebRtc.zip](https://github.com/impleotv/stanag2webrtc-release/releases/latest/download/SetupStanag2WebRtc.zip) | 
 
 > Note. Windows version requires **GStreamer** demux patch. Without the patch, streams with SYNC KLV will not work.
 
 
-*Released on Thu, 12 Jan, 14:50 GMT+2*
+*Released on Thu, 19 Jan, 13:25 GMT+2*
 
 
 ## License
