@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.10 (6/02/2023)
+
+- Change / Fix memory buffer de-allocation (Linux error)
+- Rewrite Datachannel implementation 
+- Read default klv packet from disk. 
+- Add watcher for the default klv packet update
+- Update go version 
+
 ## 1.0.7 (1/10/2023)
 
 - Change / Fix memory buffer de-allocation
