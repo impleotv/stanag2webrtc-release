@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.1 (26/02/2023)
+
+- Automatically reconnect react demo player
+- Update frontend dependencies
+
+## 1.1.0 (16/02/2023)
+
+- Add Klv sampling
+
 ## 1.0.10 (6/02/2023)
 
 - Change / Fix memory buffer de-allocation (Linux error)
