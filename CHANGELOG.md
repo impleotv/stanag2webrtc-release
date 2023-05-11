@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.0 (11/05/2023)
+- Add recorder
+- Add stream events for Windows
 ## 1.1.1 (26/02/2023)
 
 - Automatically reconnect react demo player
