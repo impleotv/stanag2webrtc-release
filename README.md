@@ -33,7 +33,7 @@ docker run --network host impleo/stanag2webrtc:1.2.0 -url udp://227.1.1.1:30120
 |:---------|:-------------------:|:------------------------------------------------------------------------|
 | **Stanag2WebRTC** |  v1.2.0 | [SetupStanag2WebRtc.zip](https://github.com/impleotv/stanag2webrtc-release/releases/latest/download/SetupStanag2WebRtc.zip) | 
 
-> Note. Windows version requires **GStreamer** demux patch. Without the patch, streams with SYNC KLV will not work.
+> Note. The Windows version currently does not support KLV.
 
 
 *Released on Thu, 11 May, 17:50 GMT+3*
@@ -43,12 +43,12 @@ docker run --network host impleo/stanag2webrtc:1.2.0 -url udp://227.1.1.1:30120
 
 *No license is needed for application evaluation - it will work in demo mode (with some restrictions).*
 
-**Stanag2WebRtc** is a node-locked software, so you have to get a license (after purchasing the SW) in order to lift demo restrictions. Please install it and fill out an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
+**Stanag2WebRtc** is a node-locked software, so you need to obtain a license (after purchasing the SW) in order to lift the demo restrictions. Please install it and fill out an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
 You can obtain the **nodeinfo** string at the top of the client demo app.
 
-You'll get back a **license** file and a **key**.
+Once you submit the form, you will receive a **license** file and a **key** in return.
 
 ## System Requirements
 
-OS: Linux 64bit / Windows 10 64 bit.
+OS: Linux 64bit / Windows 10/11 64 bit.
 
