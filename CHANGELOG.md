@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1 (14/05/2023)
+- Use spawn for ffmpeg instead of fluent ffmpeg
+- Add transcoding support for recorder
+
 ## 1.2.0 (11/05/2023)
 - Add recorder
 - Add stream events for Windows

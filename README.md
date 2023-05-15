@@ -23,7 +23,7 @@ More info on [Stanag2WebRTC](https://impleotv.com/content/stanag2webrtc/help/ind
 
 Use **Stanag2WebRTC** docker container. The image will be automatically downloaded.  
 ```bash
-docker run --network host impleo/stanag2webrtc:1.2.0 -url udp://227.1.1.1:30120
+docker run --network host impleo/stanag2webrtc:1.2.1 -url udp://227.1.1.1:30120
 ```
 
 
@@ -31,20 +31,20 @@ docker run --network host impleo/stanag2webrtc:1.2.0 -url udp://227.1.1.1:30120
 
 |          | Version             | Download link                                                           | 
 |:---------|:-------------------:|:------------------------------------------------------------------------|
-| **Stanag2WebRTC** |  v1.2.0 | [SetupStanag2WebRtc.zip](https://github.com/impleotv/stanag2webrtc-release/releases/latest/download/SetupStanag2WebRtc.zip) | 
+| **Stanag2WebRTC** |  v1.2.1 | [SetupStanag2WebRtc.zip](https://github.com/impleotv/stanag2webrtc-release/releases/latest/download/SetupStanag2WebRtc.zip) | 
 
-> Note. The Windows version currently does not support KLV.
+> Note. The Windows version currently does not support KLV. Use VM if you need KLV on Windows.
 
 
-*Released on Thu, 11 May, 17:50 GMT+3*
+*Released on Mon, 15 May, 11:23 GMT+3*
 
 
 ## License
 
 *No license is needed for application evaluation - it will work in demo mode (with some restrictions).*
 
-**Stanag2WebRtc** is a node-locked software, so you need to obtain a license (after purchasing the SW) in order to lift the demo restrictions. Please install it and fill out an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
-You can obtain the **nodeinfo** string at the top of the client demo app.
+**Stanag2WebRtc** is a node-locked software, so you need to obtain a license (after purchasing the software) in order to lift the demo restrictions. Please install it and fill out an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
+You can find the **nodeinfo** string at the top of the client demo app.
 
 Once you submit the form, you will receive a **license** file and a **key** in return.
 
