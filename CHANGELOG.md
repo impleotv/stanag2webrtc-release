@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.2 (14/05/2023)
+- Improve transcoding
+
 ## 1.2.1 (14/05/2023)
 - Use spawn for ffmpeg instead of fluent ffmpeg
 - Add transcoding support for recorder
