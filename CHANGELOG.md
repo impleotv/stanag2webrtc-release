@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.3 (24/05/2023)
+- Add SyncPipeline arg
+
 ## 1.2.2 (14/05/2023)
 - Improve transcoding
 
