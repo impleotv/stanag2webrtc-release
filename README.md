@@ -36,7 +36,7 @@ docker run --network host impleo/stanag2webrtc:1.2.3 -url udp://227.1.1.1:30120
 > Note. The Windows version currently does not support KLV. Use VM if you need KLV on Windows.
 
 
-*Released on Wed, 24 May, 12:27 GMT+3*
+*Released on Thu, 22 Jun, 11:52 GMT+3*
 
 
 ## License
