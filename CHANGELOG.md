@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 (15/06/2023)
+- Add mpegts streaming
+- Modify demo recorder sample
+
 ## 1.2.3 (24/05/2023)
 - Add SyncPipeline arg
 
