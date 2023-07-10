@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.0 (09/07/2023)
+- Add launcher
+- Fix reconnection
 ## 1.3.0 (15/06/2023)
 - Add mpegts streaming
 - Modify demo recorder sample
