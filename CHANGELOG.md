@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1 (12/07/2023)
+- Update the manual
+- Add mouse events demo to the demorecorder code
+
 ## 1.4.0 (09/07/2023)
 - Add launcher
 - Fix reconnection
