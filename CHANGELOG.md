@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.2 (14/08/2023)
+- Set videoCodecName to "h264" if videoPassthrough is selected.
+- Use video source resolution if videoResolution argument is empty ("")
+
 ## 1.4.1 (12/07/2023)
 - Update the manual
 - Add mouse events demo to the demorecorder code
