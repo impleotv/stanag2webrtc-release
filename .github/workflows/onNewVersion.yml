@@ -14,13 +14,25 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    
+      - name: Get tag name
+        id: get_tag
+        run: |
+          TAG_NAME=$(echo ${GITHUB_REF#refs/tags/})
+          echo "Tag name is: $TAG_NAME"
+          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+      
       - name: Checkout code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+        with:
+          repository: impleotv/recaster
+          token: ${{ secrets.RECASTER_REPO_TOKEN }}
+          ref: ${{ env.TAG_NAME }}
+          path: ./       
 
       - name: Create dist folder
         run: |
-          mkdir dist
-  
+          mkdir dist  
    
       - name: Download SetupStanag2WebRtc.zip from release 
         uses: dsaltares/fetch-gh-release-asset@master
