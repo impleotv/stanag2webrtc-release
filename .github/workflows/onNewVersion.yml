@@ -24,11 +24,6 @@ jobs:
       
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          repository: impleotv/recaster
-          token: ${{ secrets.RECASTER_REPO_TOKEN }}
-          ref: ${{ env.TAG_NAME }}
-          path: ./       
 
       - name: Create dist folder
         run: |
