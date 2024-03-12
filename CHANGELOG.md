@@ -1,5 +1,20 @@
 # Changelog
 
+## 2.0.1 (02/2024)
+
+- Change a module name to stanag2WebRtc
+- Improve logs
+
+## 2.0.0 (02/2024)
+
+- Add new Node info implementation
+- Add new JWT license implementation
+
+## 1.5.0 (09/2023)
+
+- Add RTSP support
+- Add Start, Stop and Exit REST commands
+
 ## 1.4.2 (14/08/2023)
 - Set videoCodecName to "h264" if videoPassthrough is selected.
 - Use video source resolution if videoResolution argument is empty ("")
@@ -68,6 +83,5 @@
 
 ### Bug Fixes
 
-* Add Changelog.md ([8285191](https://github.com/impleotv/goLiveStreamer/commit/82851919610d2ffff268ef8658a0326acb6332b8))
 
 ## Changelog
