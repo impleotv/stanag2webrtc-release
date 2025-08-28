@@ -23,7 +23,7 @@ More info on [Stanag2WebRTC](https://impleotv.com/content/stanag2webrtc/help/ind
 
 Use **Stanag2WebRTC** docker container. The image will be automatically downloaded.  
 ```bash
-docker run --network host impleo/stanag2webrtc:2.1.2 -url udp://227.1.1.1:30120
+docker run --network host impleo/stanag2webrtc:2.2.0 -url udp://227.1.1.1:30120
 ```
 
 
